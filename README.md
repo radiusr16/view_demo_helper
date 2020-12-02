@@ -1,4 +1,4 @@
-# View Demo Helper v1.2.5 (Steam CS и GSClient)
+# View Demo Helper v1.2.6 (Steam CS и GSClient)
 # Автор: Radius
 # Контакты: https://vk.com/radius_r16
 
@@ -92,6 +92,8 @@ vdh_show_hitboxes "0"
 vdh_auto_replace_resources "0"
 
 ## Описание консольных команд:
+  vdh_block_cmd "имя команды" - блокирует выполнение команд в демке
+
   vdh_replace_resource "old_value" "new_value" - заменяет игровые ресурсы (модели, звуки, спрайты и т.д).
     Пригодится для замены отсутствующих ресурсов, которые нужны для проигрывания демо.
     Можно указывать в пути слеш '/' и обратный слеш '\'.
